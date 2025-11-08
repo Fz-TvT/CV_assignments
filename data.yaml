@@ -1,0 +1,13 @@
+# 数据集配置文件 (dot_data.yaml)
+
+# 路径设置 (重点：请使用你电脑上的绝对路径！)
+# 或者使用相对于你运行 train.py 脚本的相对路径
+path: /home/cfz/CV_Assignments/dataset/YOLO_dot_dataset
+
+# 训练集和验证集图片路径 (相对 'path' 的路径)
+train: images/train  
+val: images/val    
+
+# 类别信息
+nc: 1          # 类别数量 (只有 "标定点" 1个类)
+names: ['red_dot']  # 类别名称
